@@ -15,10 +15,12 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             var appName = "fabric:/AliTestActors";
-            
+
+            var actorId = ActorId.CreateRandom();
+
             while (true)
             {
-                var actorId = ActorId.CreateRandom();
+                
                 var actor = ActorProxy.Create<IActor1>(actorId, appName);
                 Console.WriteLine($"Starting job on actor {actorId}.");
                 actor.StartJob();
