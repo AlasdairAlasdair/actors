@@ -39,10 +39,9 @@ namespace Actor1
 
         Task IActor1.StartJob()
         {
-            var actorId = _actorId.GetStringId();
-            ActorEventSource.Current.ActorMessage(this, $"{actorId} starting a job.");
+            ActorEventSource.Current.ActorMessage(this, $"{_actorId} starting a job.");
             Thread.Sleep(5000);
-            ActorEventSource.Current.ActorMessage(this, $"{actorId} finished a job.");
+            ActorEventSource.Current.ActorMessage(this, $"{_actorId} finished a job.");
 
             return Task.FromResult<object>(null);
         }
