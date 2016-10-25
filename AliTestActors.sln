@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "AliTestActors", "AliTestActors\AliTestActors.sfproj", "{8FCC40AA-7174-4FFD-B211-BDE436260B17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actor1", "Actor1\Actor1.csproj", "{05AA7366-B994-4D5B-B7B5-7B8C62EEB3AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actor1.Interfaces", "Actor1.Interfaces\Actor1.Interfaces.csproj", "{26DECE6B-1725-48EA-A469-2D54A941B15B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FCC40AA-7174-4FFD-B211-BDE436260B17}.Debug|x64.ActiveCfg = Debug|x64
+		{8FCC40AA-7174-4FFD-B211-BDE436260B17}.Debug|x64.Build.0 = Debug|x64
+		{8FCC40AA-7174-4FFD-B211-BDE436260B17}.Debug|x64.Deploy.0 = Debug|x64
+		{8FCC40AA-7174-4FFD-B211-BDE436260B17}.Release|x64.ActiveCfg = Release|x64
+		{8FCC40AA-7174-4FFD-B211-BDE436260B17}.Release|x64.Build.0 = Release|x64
+		{8FCC40AA-7174-4FFD-B211-BDE436260B17}.Release|x64.Deploy.0 = Release|x64
+		{05AA7366-B994-4D5B-B7B5-7B8C62EEB3AF}.Debug|x64.ActiveCfg = Debug|x64
+		{05AA7366-B994-4D5B-B7B5-7B8C62EEB3AF}.Debug|x64.Build.0 = Debug|x64
+		{05AA7366-B994-4D5B-B7B5-7B8C62EEB3AF}.Release|x64.ActiveCfg = Release|x64
+		{05AA7366-B994-4D5B-B7B5-7B8C62EEB3AF}.Release|x64.Build.0 = Release|x64
+		{26DECE6B-1725-48EA-A469-2D54A941B15B}.Debug|x64.ActiveCfg = Debug|x64
+		{26DECE6B-1725-48EA-A469-2D54A941B15B}.Debug|x64.Build.0 = Debug|x64
+		{26DECE6B-1725-48EA-A469-2D54A941B15B}.Release|x64.ActiveCfg = Release|x64
+		{26DECE6B-1725-48EA-A469-2D54A941B15B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
