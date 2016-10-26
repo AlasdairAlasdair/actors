@@ -6,8 +6,6 @@ using System.Fabric;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.ServiceFabric.Actors.Runtime;
-using WebServer.Hubs;
 
 namespace WebServer
 {
@@ -17,8 +15,6 @@ namespace WebServer
         public static void Main(string[] args)
         {
             ServiceRuntime.RegisterServiceAsync("WebServerType", context => new WebHostingService(context, "ServiceEndpoint")).GetAwaiter().GetResult();
-
-            ActorRuntime.RegisterActorAsync<ReportingActor>((context, actorType) => new ActorService(context, actorType)).GetAwaiter().GetResult();
 
             Thread.Sleep(Timeout.Infinite);
         }
