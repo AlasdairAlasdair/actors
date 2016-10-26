@@ -1,0 +1,5 @@
+#:C:\Source\AliTestActors\WebServer\WebServer.xproj
+#:C:\Source\AliTestActors\AliTestActors\AliTestActors.sfproj
+C:\Source\AliTestActors\AliTestActors\AliTestActors.sfproj|C:\Source\AliTestActors\Actor1\Actor1.csproj
+C:\Source\AliTestActors\AliTestActors\AliTestActors.sfproj|C:\Source\AliTestActors\WebServer\WebServer.xproj
+C:\Source\AliTestActors\Actor1\Actor1.csproj|C:\Source\AliTestActors\Actor1.Interfaces\Actor1.Interfaces.csproj
