@@ -32,7 +32,7 @@ namespace Actor1
 
         protected override Task OnActivateAsync()
         {
-            ActorEventSource.Current.ActorMessage(this, "Actor activated.");
+            ActorEventSource.Current.ActorMessage(this, $"{_actorId} activated.");
 
             return Task.FromResult<object>(null);
         }
