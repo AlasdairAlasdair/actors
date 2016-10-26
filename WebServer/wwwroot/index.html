@@ -6,8 +6,22 @@
     <!--<link rel="stylesheet" href="css/styles.css?v=1.0">-->
 </head>
 <body>
-    <script>
-    console.log("hello")
-    </script>
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/signalr/jquery.signalr-2.2.1.min.js"></script>
+<script src="/signalR/hubs"></script>
+<script>
+
+    var hub = $.connection.jobHub;
+
+    //hub.client.ClientConnected = function (clientId) {
+    //    hub.server.send("hello", "world");
+    //};
+
+    //connect to server
+    $.connection.hub.start()
+        .done(function() {
+            hub.server.send("hello", "world");
+        });
+</script>
 </body>
 </html>
