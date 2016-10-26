@@ -13,6 +13,7 @@
     "Microsoft.Extensions.Logging.Debug": "1.0.0",
     "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
     "Microsoft.ServiceFabric": "5.3.301",
+    "Microsoft.ServiceFabric.Actors": "2.3.301",
     "Microsoft.ServiceFabric.Data": "2.3.301",
     "Microsoft.ServiceFabric.Services": "2.3.301"
   },
@@ -21,7 +22,13 @@
   },
 
   "frameworks": {
-    "net452": { }
+    "net452": {
+      "dependencies": {
+        "Interfaces": {
+          "target": "project"
+        }
+      }
+    }
   },
 
   "buildOptions": {
